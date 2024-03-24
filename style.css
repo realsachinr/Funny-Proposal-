@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background: linear-gradient(rgb(103, 103, 255), rgb(255, 201, 255), gray);
+    width: 100vw;
+    height: 100vh;
+
+}
+.box-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn-box{
+
+}
+button{
+    padding: 20px 30px;
+    font-size: large;
+}
+
+.btn-no:hover{
+    right: 50px;
+}
